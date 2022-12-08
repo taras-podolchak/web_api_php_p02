@@ -51,15 +51,13 @@ class Result implements JsonSerializable
      * @param int $id
      * @param int $result
      * @param DateTime $time
-     * @param User $user
      */
-    public function __construct(int $id = 0, int $result = 0, DateTime $time = new DateTime("now"), User $user = new User("", "", ['ROLE_USER']))
+    public function __construct(int $id = 0, int $result = 0, DateTime $time = new DateTime("now"))
         //public function __construct(int $id, int $result, DateTime $time, User $user)
     {
         $this->id = $id;
         $this->result = $result;
         $this->time = $time;
-        $this->user = $user;
     }
 
 

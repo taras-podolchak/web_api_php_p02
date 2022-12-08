@@ -3,9 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Result;
-use App\Entity\User;
 use App\Form\ResultType;
-use DateTime;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
